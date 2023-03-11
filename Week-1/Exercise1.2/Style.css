@@ -1,0 +1,169 @@
+body{
+    height: 633px;
+    margin: 0px;
+    border-top: solid 5px;
+    border-right: solid 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+.Bg{
+    background-color: #454545;
+    padding: 100px;
+    margin-left: 60px;
+    height: 0px;
+    padding-bottom: 112px;
+}
+
+.assests
+{
+    height: 0px;
+}
+
+.vertical{
+    background-color: #F0F0F0;
+    padding: 15px;
+    height: 600px;
+    width: 30px;
+    margin: -648px 0px 0px 0px;
+
+}
+
+.bottom{
+    background-color: #43689b;
+    padding: 5px;
+    margin-top: -90px;
+    height: 80px;
+}
+
+.image{
+    width: 156px;
+    position: relative;
+    right: 70px;
+    top: -73px;
+    /* margin: -85px 0px -60px -70px; */
+}
+
+.Playlist_name{
+    font-size: 25px;
+    position: relative;
+    bottom: 208px;
+    right: 0px;
+    left: -12px;
+}
+
+.artistName{
+    display: block;
+    position: relative;
+    left: 150px;
+    bottom: 180px;
+    width: 121px;
+}
+
+.playlistdetails{
+    display: block;
+    position: relative;
+    left: 150px;
+    bottom: 180px;
+    width: 173px;
+}
+
+#spanofdetails{
+    color: #F0F0F0;
+}
+
+#verticalline-icon{
+    line-height: 4;
+    position: relative;
+    left: 5px;
+}
+
+#verticalline-icon:hover{
+    transform: scale(1.3);
+}
+
+
+.bottom-image{
+    width: 80px;
+    position: relative;
+
+}
+.songname{
+    color: #F0F0F0;
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+
+}
+
+.artist{
+    color: #F0F0F0;
+    display: block;
+    width: 105px;
+    position: relative;
+    bottom: 40px;
+    left: 107px;
+}
+
+#top-icon{
+    color: white;
+    margin: 0px 20px 0px;
+    position: relative;
+    bottom: 138px;
+    left: 128px;   
+}
+
+#top-icon:hover{
+    transform: scale(1.1);
+    color: #ebebeb;
+}
+
+#bottom-icons{
+    color: white;
+    margin: 0px 60px 0px;
+    position: relative;
+    bottom: 71px;
+    left: 423px;
+
+}
+
+.Centar{
+    height: 420px;
+    margin-left: 30px;
+}
+
+ol li{
+    display: flex;
+    padding: 10px 20px;
+}
+
+ol li:nth-child(2){
+    width: 96%;
+    background-color: #F0F0F0;
+}
+ol li:nth-child(4){
+    width: 96%;
+    background-color: #F0F0F0;
+}
+
+ol li span:nth-child(1){
+    width: 300px;
+}
+
+ol li span:nth-child(2){
+    width: 350px;
+}
+
+ol li span:nth-child(3){
+    width: 260px;
+}
+
+ol li span:nth-child(4){
+    color: blue;
+    border: solid 2px;
+    width: 155px;
+}
+
+ol li:hover{
+    transform: scale(1.008);
+    background-color: #a8a8a8;
+}
