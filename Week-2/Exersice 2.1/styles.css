@@ -1,0 +1,109 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Main styles */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article {
+    width: 32%;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+.grid-item {
+    width: 31%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        flex-direction: column;
+    }
+
+    article {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    section {
+        margin: 0 -10px;
+    }
+
+    article {
+        width: 48%;
+        margin-bottom: 40px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+    .grid-item {
+        width: 30.333%;
+        margin-right: 1%;
+        margin-bottom: 30px;
+    }
+
+    .grid-item:nth-child(3n) {
+        margin-right: 0;
+    }
+
+    .grid-item:nth-child(n+4) {
+        margin-top: 30px;
+    }
+}
