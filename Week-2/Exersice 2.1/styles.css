@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+a {
+    color: #0099ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+
+header {
+    font-family:'Times New Roman', Times, serif ;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #333;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #666;
+}
+
+/* Main styles */
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.S1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+article , img{
+    width: 45%;
+    font-family: serif;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    margin: 10px 0;
+}
+
+input{
+    background-color: #fafafa;
+    border: solid #8a8a8a 1px;
+    border-radius: 6px;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.form{
+    background-color: #ffffff;
+    border: solid  #f3eded 2px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    margin: auto;
+}
+
+span{
+    font-size: 1.9em;
+    margin: 40px 0px 20px;
+    
+}
+
+button{
+    border: #fff;
+    border-radius: 10px;
+    background-color: rgb(59, 59, 255);
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    margin: 20px 0px 40px;
+    height: 40px;
+    width: 80px;
+}
+
+.S2{
+ display: flex;
+ justify-content: space-between;
+}
+
+.grid-item {
+    
+    width: 250px;
+    flex-direction: row;
+    
+    
+}
+
+.footer {
+    
+    margin-top: 50px;
+    text-align: center;    
+}
+
+footer p{
+    margin: 5px;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+@media screen and (max-width: 839px) {
+
+    section{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        
+    }
+
+    #A1{
+        order: 1;
+        width: 90%;
+        height:fit-content;
+        width: fit-content;
+    }
+    #A2{
+        order: 3;
+        width: 90%;
+        height:fit-content;
+        width: fit-content;
+    }
+    #A3{
+        order: 4;
+        width: 90%;
+        height:fit-content;
+        width: fit-content;
+    }
+
+    img{
+        order: 2;
+        /* padding-left: 10px; */
+        width: 95%; 
+    }
+
+    .form{
+        height: auto;
+        width: 90%;
+        display: flex;
+    }
+
+    span {
+        font-size: 1.2em;
+        margin: 40px 21px 20px;
+    }
+
+    form {
+        margin: 0px 90% 0px;
+    }
+
+    .agree{
+        font-size: 0.78em;
+    }
+
+    button{
+        display: flex;
+        margin: 30px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
