@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .content{
+     /* display: none; */
+    position: absolute;
+    margin: 0px;
+    font-size: 50px;
+    color: black;
+    
+  }
+  
+  .square {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transition: transform 1s ease;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  /* Rotate the squares on hover */
+  .main:hover .red {
+    transform: rotate(90deg)  translateY(100px);
+  }
+  
+   .main:hover .blue {
+    transform: rotate(-90deg)  translateY(-100px);
+  }
+  
+  .main:hover .green {
+    transform: rotate(-90deg)  translateY(100px);
+  }
+  
+  .main:hover .yellow {
+    transform: rotate(90deg)  translateY(-100px);
+  } 
+  
