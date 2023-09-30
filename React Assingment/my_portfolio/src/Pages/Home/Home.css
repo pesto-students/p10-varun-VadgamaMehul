@@ -1,0 +1,16 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profileimage{
+    display: flex;
+    justify-content:center ;;
+}
+
+img{
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 5px 5px 20px 1px #888888;
+}
